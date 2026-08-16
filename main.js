@@ -1,5 +1,4 @@
-
-const WA_NUMBER = "573160749536";
+const WA_NUMBER = "+31633231532";
 
 const translations = {
   es: {
@@ -21,6 +20,8 @@ const translations = {
     "services.4.title":"Bodegas e Industriales","services.4.desc":"Servicios especializados para bodegas, instalaciones industriales y espacios de gran superficie.",
     "services.5.title":"Administración Integral","services.5.desc":"Administración profesional de copropiedades con procesos organizados y gestión contable transparente.",
     "services.6.title":"Mantenimiento General","services.6.desc":"Mantenimiento preventivo y correctivo para conservar las instalaciones en excelentes condiciones.",
+    "services.6.price":"$20 Euros",
+    "services.6.note":"El precio del servicio varía según el tamaño y las condiciones del lugar que se vaya a limpiar. Para darte un precio exacto, primero podemos evaluar el espacio.",
     "special.eyebrow":"Espacios","special.title":"Soluciones para cada espacio",
     "special.1.title":"Terrazas y Azoteas","special.1.desc":"Limpieza y mantenimiento profesional de terrazas, azoteas y espacios exteriores.",
     "special.2.title":"Ascensores y Circulaciones","special.2.desc":"Limpieza detallada de ascensores, pasillos, escaleras y zonas de circulación.",
@@ -72,6 +73,8 @@ const translations = {
     "services.4.title":"Warehouses & Industrial","services.4.desc":"Specialized services for warehouses, industrial facilities and large-surface spaces.",
     "services.5.title":"Comprehensive Administration","services.5.desc":"Professional co-ownership administration with organized processes and transparent accounting.",
     "services.6.title":"General Maintenance","services.6.desc":"Preventive and corrective maintenance to keep facilities in excellent condition.",
+    "services.6.price":"$20 Euros",
+    "services.6.note":"The price varies depending on the size of the area and the amount of cleaning required. For an exact quote, we can evaluate the space first.",
     "special.eyebrow":"Spaces","special.title":"Solutions for every space",
     "special.1.title":"Terraces & Rooftops","special.1.desc":"Professional cleaning and maintenance of terraces, rooftops and outdoor spaces.",
     "special.2.title":"Elevators & Corridors","special.2.desc":"Detailed cleaning of elevators, hallways, staircases and circulation areas.",
@@ -108,7 +111,7 @@ const translations = {
     "header.tagline":"Hygiëne, beheer en onderhoud",
     "header.whatsapp":"WhatsApp",
     "nav.home":"Home","nav.services":"Diensten","nav.about":"Over ons","nav.gallery":"Galerij","nav.contact":"Contact",
-    "hero.eyebrow":"Barranquilla, Colombia",
+    "hero.eyebrow":"Holanda, Nederland",
     "hero.title":"Waar anderen beheren, leiden wij.",
     "hero.subtitle":"Elitair beheer van appartementscomplexen, geavanceerde hygiëne en transparante boekhoudkundige administratie.",
     "hero.ctaWhatsapp":"Stuur een WhatsApp-bericht",
@@ -123,6 +126,7 @@ const translations = {
     "services.4.title":"Loodsen & Industrie","services.4.desc":"Gespecialiseerde diensten voor loodsen, industriële faciliteiten en grote oppervlaktes.",
     "services.5.title":"Integraal Beheer","services.5.desc":"Professioneel beheer van appartementscomplexen met georganiseerde processen en transparante boekhouding.",
     "services.6.title":"Algemeen Onderhoud","services.6.desc":"Preventief en correctief onderhoud om faciliteiten in uitstekende staat te houden.",
+    "services.6.price":"Vanaf €20","services.6.note":"De prijs varieert afhankelijk van de grootte van de ruimte en de hoeveelheid schoonmaakwerk die nodig is.",
     "special.eyebrow":"Ruimtes","special.title":"Oplossingen voor elke ruimte",
     "special.1.title":"Terrassen & Daken","special.1.desc":"Professionele reiniging en onderhoud van terrassen, daken en buitenruimtes.",
     "special.2.title":"Liften & Circulatieruimtes","special.2.desc":"Grondige reiniging van liften, gangen, trappen en circulatiezones.",
