@@ -6,7 +6,7 @@ const translations = {
     "header.tagline":"Higiene, gestión y mantenimiento",
     "header.whatsapp":"WhatsApp",
     "nav.home":"Inicio","nav.services":"Servicios","nav.about":"Nosotros","nav.gallery":"Galería","nav.contact":"Contacto",
-    "hero.eyebrow":"Barranquilla, Colombia",
+    "hero.eyebrow":"Holanda, paises bajos",
     "hero.title":"Donde otros administran, nosotros lideramos.",
     "hero.subtitle":"Gestión élite de copropiedades, higiene de vanguardia y administración contable transparente.",
     "hero.ctaWhatsapp":"Escribir por WhatsApp",
