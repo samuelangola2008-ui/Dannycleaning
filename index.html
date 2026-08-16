@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EvoClean | Gestión élite de copropiedades e higiene profesional en Barranquilla</title>
+<meta name="description" content="EvoClean: higiene de edificios, administración de copropiedades y mantenimiento profesional en Barranquilla, Colombia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="site-header">
+  <div class="container nav-wrap">
+    <a href="#inicio" class="logo">
+      <svg class="logo-mark" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="44" height="44" rx="12" fill="#0A2340"/>
+        <path d="M14 30V17C14 15 15.5 13.5 17.5 13.5H26.5C28.5 13.5 30 15 30 17V30" stroke="#2E9A6B" stroke-width="2" stroke-linecap="round"/>
+        <path d="M18 30V23.5H26V30" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M17 18H27" stroke="#2E9A6B" stroke-width="1.6" stroke-linecap="round"/>
+        <circle cx="22" cy="20.5" r="1.1" fill="#2E9A6B"/>
+      </svg>
+      <span>EvoClean<span class="logo-sub" data-i18n="header.tagline">Facility &amp; property management</span></span>
+    </a>
+    <nav class="main-nav">
+      <a href="#inicio" data-i18n="nav.home">Inicio</a>
+      <a href="#servicios" data-i18n="nav.services">Servicios</a>
+      <a href="#nosotros" data-i18n="nav.about">Nosotros</a>
+      <a href="#galeria" data-i18n="nav.gallery">Galería</a>
+      <a href="#contacto" data-i18n="nav.contact">Contacto</a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-switch" id="lang-switch-desktop">
+        <button data-lang="es" class="active">ES</button>
+        <button data-lang="en">EN</button>
+        <button data-lang="nl">NL</button>
+      </div>
+      <a class="header-wa" id="header-wa-btn" target="_blank" rel="noopener">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="#fff"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.13-2.9-7C17.19 3.03 14.7 2 12.04 2Zm0 18.1a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.18 8.18 0 0 1-1.26-4.34c0-4.52 3.68-8.2 8.24-8.2 2.2 0 4.27.86 5.83 2.42a8.17 8.17 0 0 1 2.41 5.79c0 4.53-3.68 8.2-8.24 8.2Zm4.52-6.14c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.54.06-.25-.12-1.04-.38-1.99-1.22-.73-.66-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.24-.41.08-.16.04-.31-.02-.43-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42-.14-.01-.31-.01-.47-.01-.16 0-.43.06-.66.31-.23.24-.86.85-.86 2.06 0 1.22.88 2.4 1 2.56.13.16 1.73 2.64 4.2 3.7.59.25 1.05.4 1.4.52.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.68-1.18.2-.58.2-1.08.14-1.18-.06-.1-.23-.16-.48-.28Z"/></svg>
+        <span data-i18n="header.whatsapp">WhatsApp</span>
+      </a>
+      <div class="burger" id="burger"><span></span><span></span><span></span></div>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#inicio" data-i18n="nav.home">Inicio</a>
+  <a href="#servicios" data-i18n="nav.services">Servicios</a>
+  <a href="#nosotros" data-i18n="nav.about">Nosotros</a>
+  <a href="#galeria" data-i18n="nav.gallery">Galería</a>
+  <a href="#contacto" data-i18n="nav.contact">Contacto</a>
+  <div class="lang-switch" id="lang-switch-mobile">
+    <button data-lang="es" class="active">ES</button>
+    <button data-lang="en">EN</button>
+    <button data-lang="nl">NL</button>
+  </div>
+  <a class="header-wa" id="header-wa-btn-mobile" target="_blank" rel="noopener">
+    <span data-i18n="header.whatsapp">WhatsApp</span>
+  </a>
+</div>
+
+<section class="hero" id="inicio">
+  <div class="hero-bg">
+    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=1600&q=80" alt="Edificio corporativo moderno" onerror="this.src='https://picsum.photos/seed/evoclean-hero/1600/1000'">
+  </div>
+  <div class="hero-sweep"></div>
+  <div class="container hero-inner">
+    <p class="eyebrow" data-i18n="hero.eyebrow">Barranquilla, Colombia</p>
+    <h1 data-i18n="hero.title">Donde otros administran, nosotros lideramos.</h1>
+    <p class="sub" data-i18n="hero.subtitle">Gestión élite de copropiedades, higiene de vanguardia y administración contable transparente.</p>
+    <div class="hero-btns">
+      <a href="#" id="hero-wa-btn" class="btn btn-primary" target="_blank" rel="noopener" data-i18n="hero.ctaWhatsapp">Escribir por WhatsApp</a>
+      <a href="#servicios" class="btn btn-outline" style="background:rgba(255,255,255,0.06);border-color:rgba(255,255,255,0.35);color:#fff;" data-i18n="hero.ctaServices">Conocer nuestros servicios</a>
+    </div>
+    <div class="hero-stats">
+      <div><strong>+12</strong><span data-i18n="hero.stat1">años de experiencia</span></div>
+      <div><strong>+80</strong><span data-i18n="hero.stat2">propiedades gestionadas</span></div>
+      <div><strong>24/7</strong><span data-i18n="hero.stat3">atención corporativa</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="servicios">
+  <div class="container">
+    <div class="section-head center">
+      <p class="eyebrow" data-i18n="services.eyebrow">Servicios</p>
+      <h2 data-i18n="services.title">Soluciones profesionales integrales</h2>
+      <p data-i18n="services.subtitle">Soluciones profesionales para edificios, conjuntos residenciales, oficinas y espacios industriales.</p>
+    </div>
+    <div class="services-grid">
+
+      <div class="svc-card reveal">
+        <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M6 21V8l6-4 6 4v13"/><path d="M9 21v-6h6v6"/><path d="M9 12h.01M15 12h.01M9 9h.01M15 9h.01"/></svg></div>
+        <h3 data-i18n="services.1.title">Higiene de Edificios</h3>
+        <p data-i18n="services.1.desc">Servicios profesionales de limpieza, desinfección y mantenimiento de áreas comunes para mantener edificios impecables y seguros.</p>
+      </div>
+
+      <div class="svc-card reveal">
+        <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5 12 3l9 6.5"/><path d="M5 10v10h14V10"/><path d="M9 20v-6h6v6"/></svg></div>
+        <h3 data-i18n="services.2.title">Conjuntos Residenciales</h3>
+        <p data-i18n="services.2.desc">Gestión especializada de limpieza y mantenimiento para conjuntos residenciales y copropiedades.</p>
+      </div>
+
+      <div class="svc-card reveal">
+        <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h3"/></svg></div>
+        <h3 data-i18n="services.3.title">Oficinas Corporativas</h3>
+        <p data-i18n="services.3.desc">Espacios corporativos limpios, organizados y preparados para ofrecer una excelente imagen profesional.</p>
+      </div>
+
+      <div class="svc-card reveal">
+        <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V9l9-5 9 5v12"/><path d="M3 21h18"/><path d="M8 21v-7h8v7"/></svg></div>
+        <h3 data-i18n="services.4.title">Bodegas e Industriales</h3>
+        <p data-i18n="services.4.desc">Servicios especializados para bodegas, instalaciones industriales y espacios de gran superficie.</p>
+      </div>
+
+      <div class="svc-card reveal">
+        <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3v18M15 3v18M3 8h6M15 8h6M3 16h6M15 16h6"/></svg></div>
+        <h3 data-i18n="services.5.title">Administración Integral</h3>
+        <p data-i18n="services.5.desc">Administración profesional de copropiedades con procesos organizados y gestión contable transparente.</p>
+      </div>
+
+      <div class="svc-card reveal">
+        <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 1.4 0l1.6-1.6a1 1 0 0 1 1.4 1.4l-1.6 1.6a1 1 0 0 0 0 1.4l3.4 3.4a1 1 0 0 1-1.4 1.4L16.1 10 10 16.1l3.9 3.4a1 1 0 0 1-1.4 1.4l-3.4-3.4a1 1 0 0 0-1.4 0l-1.6 1.6a1 1 0 0 1-1.4-1.4l1.6-1.6a1 1 0 0 0 0-1.4L3 11.3a1 1 0 0 1 1.4-1.4L7.8 13a1 1 0 0 0 1.4 0L14.7 7.5"/></svg></div>
+        <h3 data-i18n="services.6.title">Mantenimiento General</h3>
+        <p data-i18n="services.6.desc">Mantenimiento preventivo y correctivo para conservar las instalaciones en excelentes condiciones.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section spaces-section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow" data-i18n="special.eyebrow">Espacios</p>
+      <h2 data-i18n="special.title">Soluciones para cada espacio</h2>
+    </div>
+    <div class="spaces-grid">
+      <div class="space-card span-2 reveal">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80" alt="Terrazas y azoteas" onerror="this.src='https://picsum.photos/seed/terrazas/1000/700'">
+        <div class="space-info"><h4 data-i18n="special.1.title">Terrazas y Azoteas</h4><p data-i18n="special.1.desc">Limpieza y mantenimiento profesional de terrazas, azoteas y espacios exteriores.</p></div>
+      </div>
+      <div class="space-card reveal">
+        <img src="https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?auto=format&fit=crop&w=800&q=80" alt="Ascensores y circulaciones" onerror="this.src='https://picsum.photos/seed/ascensores/800/700'">
+        <div class="space-info"><h4 data-i18n="special.2.title">Ascensores y Circulaciones</h4><p data-i18n="special.2.desc">Limpieza detallada de ascensores, pasillos, escaleras y zonas de circulación.</p></div>
+      </div>
+      <div class="space-card reveal">
+        <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=800&q=80" alt="Conjuntos residenciales" onerror="this.src='https://picsum.photos/seed/residencial/800/700'">
+        <div class="space-info"><h4 data-i18n="special.3.title">Conjuntos Residenciales</h4><p data-i18n="special.3.desc">Servicios integrales para zonas comunes y áreas residenciales.</p></div>
+      </div>
+      <div class="space-card span-2 reveal">
+        <img src="https://images.unsplash.com/photo-1553413077-190083d1a0c9?auto=format&fit=crop&w=1000&q=80" alt="Bodegas e industriales" onerror="this.src='https://picsum.photos/seed/bodegas/1000/700'">
+        <div class="space-info"><h4 data-i18n="special.4.title">Bodegas e Industriales</h4><p data-i18n="special.4.desc">Limpieza especializada para instalaciones industriales y comerciales.</p></div>
+      </div>
+      <div class="space-card span-2 reveal" style="grid-column:1/-1;height:340px;">
+        <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1400&q=80" onerror="this.src='https://picsum.photos/seed/higiene-full/1400/700'" alt="Higiene de edificios">
+        <div class="space-info"><h4 data-i18n="special.5.title">Higiene de Edificios</h4><p data-i18n="special.5.desc">Protocolos profesionales de higiene para edificios y propiedades.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section about-section" id="nosotros">
+  <div class="container about-grid">
+    <div class="about-img-wrap reveal">
+      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80" alt="Edificio moderno EvoClean" onerror="this.src='https://picsum.photos/seed/evoclean-about/900/900'">
+      <div class="about-badge">
+        <strong>+12</strong>
+        <span data-i18n="about.badge">años de trayectoria</span>
+      </div>
+    </div>
+    <div class="about-text reveal">
+      <p class="eyebrow" data-i18n="about.eyebrow">Nosotros</p>
+      <h2 data-i18n="about.title">Más que limpieza. Gestión integral.</h2>
+      <p data-i18n="about.text">En EvoClean nos especializamos en ofrecer soluciones profesionales para propiedades residenciales, comerciales e industriales. Combinamos higiene, mantenimiento y administración para brindar una gestión eficiente, organizada y transparente.</p>
+      <div class="benefits-list">
+        <div class="benefit-item">
+          <div class="benefit-check"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg></div>
+          <span data-i18n="about.benefit1">Personal capacitado</span>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-check"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg></div>
+          <span data-i18n="about.benefit2">Procesos profesionales</span>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-check"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg></div>
+          <span data-i18n="about.benefit3">Administración transparente</span>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-check"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg></div>
+          <span data-i18n="about.benefit4">Atención corporativa personalizada</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section gallery-section" id="galeria">
+  <div class="container">
+    <div class="section-head center">
+      <p class="eyebrow" data-i18n="gallery.eyebrow">Galería</p>
+      <h2 data-i18n="gallery.title">Nuestro trabajo en detalle</h2>
+      <p data-i18n="gallery.subtitle">Conozca algunas de las áreas donde aplicamos nuestros servicios profesionales.</p>
+    </div>
+    <div class="gallery-filters">
+      <button class="gfilter active" data-filter="all" data-i18n="gallery.f.all">Todos</button>
+      <button class="gfilter" data-filter="residencial" data-i18n="gallery.f.residencial">Conjuntos Residenciales</button>
+      <button class="gfilter" data-filter="industrial" data-i18n="gallery.f.industrial">Bodegas e Industriales</button>
+      <button class="gfilter" data-filter="higiene" data-i18n="gallery.f.higiene">Higiene de Edificios</button>
+      <button class="gfilter" data-filter="terrazas" data-i18n="gallery.f.terrazas">Terrazas y Azoteas</button>
+      <button class="gfilter" data-filter="ascensores" data-i18n="gallery.f.ascensores">Ascensores y Circulaciones</button>
+    </div>
+    <div class="gallery-grid" id="gallery-grid">
+      <div class="g-item" data-cat="higiene"><img src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=600&q=80" onerror="this.src='https://picsum.photos/seed/g1/600/500'"><span class="g-cap" data-i18n="gallery.f.higiene">Higiene de Edificios</span></div>
+      <div class="g-item" data-cat="residencial"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80" onerror="this.src='https://picsum.photos/seed/g2/600/500'"><span class="g-cap" data-i18n="gallery.f.residencial">Conjuntos Residenciales</span></div>
+      <div class="g-item" data-cat="industrial"><img src="https://images.unsplash.com/photo-1553413077-190083d1a0c9?auto=format&fit=crop&w=600&q=80" onerror="this.src='https://picsum.photos/seed/g3/600/500'"><span class="g-cap" data-i18n="gallery.f.industrial">Bodegas e Industriales</span></div>
+      <div class="g-item" data-cat="terrazas"><img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=600&q=80" onerror="this.src='https://picsum.photos/seed/g4/600/500'"><span class="g-cap" data-i18n="gallery.f.terrazas">Terrazas y Azoteas</span></div>
+      <div class="g-item" data-cat="ascensores"><img src="https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?auto=format&fit=crop&w=600&q=80" onerror="this.src='https://picsum.photos/seed/g5/600/500'"><span class="g-cap" data-i18n="gallery.f.ascensores">Ascensores y Circulaciones</span></div>
+      <div class="g-item" data-cat="higiene"><img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=600&q=80" onerror="this.src='https://picsum.photos/seed/g6/600/500'"><span class="g-cap" data-i18n="gallery.f.higiene">Higiene de Edificios</span></div>
+      <div class="g-item" data-cat="residencial"><img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80" onerror="this.src='https://picsum.photos/seed/g7/600/500'"><span class="g-cap" data-i18n="gallery.f.residencial">Conjuntos Residenciales</span></div>
+      <div class="g-item" data-cat="industrial"><img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=600&q=80" onerror="this.src='https://picsum.photos/seed/g8/600/500'"><span class="g-cap" data-i18n="gallery.f.industrial">Bodegas e Industriales</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox">
+  <div class="lightbox-close" id="lightbox-close">&times;</div>
+  <img src="" id="lightbox-img" alt="">
+</div>
+
+<section class="section trust-strip">
+  <div class="container trust-grid">
+    <div class="trust-item reveal">
+      <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 6v6c0 5 3.4 8.5 8 10 4.6-1.5 8-5 8-10V6l-8-4Z"/><path d="M9 12l2 2 4-4"/></svg></div>
+      <div><h4 data-i18n="trust.1.title">Confianza</h4><p data-i18n="trust.1.desc">Personal capacitado y comprometido con la calidad.</p></div>
+    </div>
+    <div class="trust-item reveal">
+      <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c2 3 5 5.5 5 9a5 5 0 0 1-10 0c0-3.5 3-6 5-9Z"/></svg></div>
+      <div><h4 data-i18n="trust.2.title">Higiene</h4><p data-i18n="trust.2.desc">Procesos y productos adecuados para cada espacio.</p></div>
+    </div>
+    <div class="trust-item reveal">
+      <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></div>
+      <div><h4 data-i18n="trust.3.title">Puntualidad</h4><p data-i18n="trust.3.desc">Cumplimos nuestros compromisos con profesionalismo.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contacto">
+  <div class="container contact-grid">
+    <div class="contact-info reveal">
+      <p class="eyebrow" data-i18n="contact.eyebrow">Contacto Corporativo</p>
+      <h2 data-i18n="contact.title">Comuníquese hoy mismo</h2>
+      <p data-i18n="contact.subtitle">Establezca contacto para programar una evaluación en sitio o recibir información detallada sobre nuestros servicios.</p>
+
+      <div class="info-row">
+        <div class="info-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></div>
+        <div>
+          <h4 data-i18n="contact.location.label">Ubicación Operativa</h4>
+          <span class="val"></span>
+        </div>
+      </div>
+      <div class="info-row">
+        <div class="info-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.9.35 1.8.68 2.65a2 2 0 0 1-.45 2.11L8.09 9.73a16 16 0 0 0 6.18 6.18l1.25-1.25a2 2 0 0 1 2.11-.45c.85.33 1.75.56 2.65.68A2 2 0 0 1 22 16.92Z"/></svg></div>
+        <div>
+          <h4 data-i18n="contact.phone.label">Teléfono / WhatsApp</h4>
+          <a id="contact-phone-link" target="_blank" rel="noopener">+57 316 0749536</a>
+        </div>
+      </div>
+      <div class="info-row">
+        <div class="info-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></div>
+        <div>
+          <h4 data-i18n="contact.email.label">Correo Corporativo</h4>
+          <a id="contact-email-link" href="mailto:d4rkrstrmr37@gmail.com">d4rkrstrmr37@gmail.com</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form reveal">
+      <h3 data-i18n="form.title">Envíenos su consulta</h3>
+      <form id="contact-form">
+        <div class="form-row">
+          <div class="field">
+            <label data-i18n="form.name.label">Nombre Completo</label>
+            <input type="text" id="f-name" data-i18n-placeholder="form.name.placeholder" placeholder="Ej. Carlos Mendoza" required>
+          </div>
+          <div class="field">
+            <label data-i18n="form.email.label">Correo de Contacto</label>
+            <input type="email" id="f-email" data-i18n-placeholder="form.email.placeholder" placeholder="Ej. correo@dominio.com" required>
+          </div>
+        </div>
+        <div class="field">
+          <label data-i18n="form.subject.label">Asunto o Tipo de Inmueble</label>
+          <select id="f-subject">
+            <option value="residencial" data-i18n="form.subject.opt1">Conjunto Residencial</option>
+            <option value="oficina" data-i18n="form.subject.opt2">Oficina</option>
+            <option value="bodega" data-i18n="form.subject.opt3">Bodega</option>
+            <option value="edificio" data-i18n="form.subject.opt4">Edificio</option>
+            <option value="terraza" data-i18n="form.subject.opt5">Terraza</option>
+            <option value="ascensor" data-i18n="form.subject.opt6">Ascensor</option>
+            <option value="mantenimiento" data-i18n="form.subject.opt7">Mantenimiento</option>
+            <option value="administracion" data-i18n="form.subject.opt8">Administración</option>
+            <option value="otro" data-i18n="form.subject.opt9">Otro</option>
+          </select>
+        </div>
+        <div class="field">
+          <label data-i18n="form.message.label">Mensaje</label>
+          <textarea id="f-message" data-i18n-placeholder="form.message.placeholder" placeholder="Escriba los detalles de su edificación para enviarle respuesta formal inmediata."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary form-submit" data-i18n="form.submit">Enviar por WhatsApp ↗</button>
+        <p class="form-note" data-i18n="form.note">Al enviar, se abrirá WhatsApp con su mensaje ya redactado.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <svg class="logo-mark" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="44" height="44" rx="12" fill="#2E9A6B"/>
+            <path d="M14 30V17C14 15 15.5 13.5 17.5 13.5H26.5C28.5 13.5 30 15 30 17V30" stroke="#0A2340" stroke-width="2" stroke-linecap="round"/>
+            <path d="M18 30V23.5H26V30" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span>EvoClean</span>
+        </div>
+        <p data-i18n="footer.about.text">Gestión élite de copropiedades, higiene profesional y administración transparente.</p>
+        <div class="footer-social">
+          <a id="footer-wa" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path fill="none" stroke-width="0" d="M0 0h24v24H0z"/><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.13-2.9-7C17.19 3.03 14.7 2 12.04 2Z" fill="#fff"/></svg></a>
+          <a id="footer-mail" href="mailto:d4rkrstrmr37@gmail.com" aria-label="Correo"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+          <a href="#contacto" aria-label="Ubicación"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5 data-i18n="footer.services.title">Servicios</h5>
+        <ul>
+          <li><a href="#servicios" data-i18n="services.1.title">Higiene de Edificios</a></li>
+          <li><a href="#servicios" data-i18n="services.2.title">Conjuntos Residenciales</a></li>
+          <li><a href="#servicios" data-i18n="services.3.title">Oficinas Corporativas</a></li>
+          <li><a href="#servicios" data-i18n="services.4.title">Bodegas e Industriales</a></li>
+          <li><a href="#servicios" data-i18n="services.5.title">Administración Integral</a></li>
+          <li><a href="#servicios" data-i18n="services.6.title">Mantenimiento General</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5 data-i18n="footer.legal.title">Legal</h5>
+        <ul>
+          <li><a href="#" data-i18n="footer.legal.privacy">Política de Privacidad</a></li>
+          <li><a href="#" data-i18n="footer.legal.terms">Términos y Condiciones</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5 data-i18n="footer.contact.title">Contacto</h5>
+        <ul>
+          <li>Cl. 54 #44-10, Barranquilla</li>
+          <li>+57 316 0749536</li>
+          <li>d4rkrstrmr37@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="footer.copyright">© 2026 EvoClean. Todos los derechos reservados.</p>
+      <p data-i18n="footer.made">Barranquilla, Colombia</p>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" id="wa-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.13-2.9-7C17.19 3.03 14.7 2 12.04 2Zm0 18.1a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.18 8.18 0 0 1-1.26-4.34c0-4.52 3.68-8.2 8.24-8.2 2.2 0 4.27.86 5.83 2.42a8.17 8.17 0 0 1 2.41 5.79c0 4.53-3.68 8.2-8.24 8.2Zm4.52-6.14c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.54.06-.25-.12-1.04-.38-1.99-1.22-.73-.66-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.24-.41.08-.16.04-.31-.02-.43-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42-.14-.01-.31-.01-.47-.01-.16 0-.43.06-.66.31-.23.24-.86.85-.86 2.06 0 1.22.88 2.4 1 2.56.13.16 1.73 2.64 4.2 3.7.59.25 1.05.4 1.4.52.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.68-1.18.2-.58.2-1.08.14-1.18-.06-.1-.23-.16-.48-.28Z"/></svg>
+</a>
+<script src="main.js"></script>
+</body>
+</html>
