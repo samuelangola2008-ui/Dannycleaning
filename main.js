@@ -50,8 +50,8 @@ const translations = {
     "form.submit":"Enviar por WhatsApp ↗","form.note":"Al enviar, se abrirá WhatsApp con su mensaje ya redactado.",
     "footer.services.title":"Servicios","footer.legal.title":"Legal","footer.legal.privacy":"Política de Privacidad","footer.legal.terms":"Términos y Condiciones",
     "footer.contact.title":"Contacto","footer.about.text":"Gestión élite de copropiedades, higiene profesional y administración transparente.",
-    "footer.copyright":"© 2026 EvoClean. Todos los derechos reservados.","footer.made":"Barranquilla, Colombia",
-    "wa.greeting":"Hola EvoClean, deseo solicitar información sobre sus servicios.",
+    "footer.copyright":"© 2026 Dannyclean. Todos los derechos reservados.","footer.made":"Holanda, paises bajos",
+    "wa.greeting":"Hola Dannyclean, deseo solicitar información sobre sus servicios.",
     "wa.name":"Nombre","wa.email":"Correo","wa.subject":"Tipo de inmueble","wa.message":"Mensaje"
   },
   en: {
@@ -103,8 +103,8 @@ const translations = {
     "form.submit":"Send via WhatsApp ↗","form.note":"Sending will open WhatsApp with your message already drafted.",
     "footer.services.title":"Services","footer.legal.title":"Legal","footer.legal.privacy":"Privacy Policy","footer.legal.terms":"Terms & Conditions",
     "footer.contact.title":"Contact","footer.about.text":"Elite property management, professional hygiene and transparent administration.",
-    "footer.copyright":"© 2026 EvoClean. All rights reserved.","footer.made":"Barranquilla, Colombia",
-    "wa.greeting":"Hello EvoClean, I would like information about your services.",
+    "footer.copyright":"© 2026 Dannycleaning. All rights reserved.","footer.made":"Holanda, Nederland",
+    "wa.greeting":"Hello Dannycleaning, I would like information about your services.",
     "wa.name":"Name","wa.email":"Email","wa.subject":"Property type","wa.message":"Message"
   },
   nl: {
@@ -155,8 +155,8 @@ const translations = {
     "form.submit":"Verstuur via WhatsApp ↗","form.note":"Bij verzenden wordt WhatsApp geopend met uw bericht al ingevuld.",
     "footer.services.title":"Diensten","footer.legal.title":"Juridisch","footer.legal.privacy":"Privacybeleid","footer.legal.terms":"Algemene Voorwaarden",
     "footer.contact.title":"Contact","footer.about.text":"Elitair beheer van appartementscomplexen, professionele hygiëne en transparante administratie.",
-    "footer.copyright":"© 2026 EvoClean. Alle rechten voorbehouden.","footer.made":"Barranquilla, Colombia",
-    "wa.greeting":"Hallo EvoClean, ik wil graag informatie over uw diensten.",
+    "footer.copyright":"© 2026 Dannyclean. Alle rechten voorbehouden.","footer.made":"Holanda, Nederland",
+    "wa.greeting":"Hallo Dannyclean, ik wil graag informatie over uw diensten.",
     "wa.name":"Naam","wa.email":"E-mail","wa.subject":"Type pand","wa.message":"Bericht"
   }
 };
