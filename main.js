@@ -267,4 +267,4 @@ const io = new IntersectionObserver((entries)=>{
 }, {threshold:0.15});
 revealEls.forEach(el=> io.observe(el));
 
-applyLang("es");
+applyLang("en");
