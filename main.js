@@ -58,7 +58,7 @@ const translations = {
     "header.tagline":"Hygiene, management and maintenance",
     "header.whatsapp":"WhatsApp",
     "nav.home":"Home","nav.services":"Services","nav.about":"About","nav.gallery":"Gallery","nav.contact":"Contact",
-    "hero.eyebrow":"Barranquilla, Colombia",
+    "hero.eyebrow":"Holanda, paises bajos",
     "hero.title":"Where others manage, we lead.",
     "hero.subtitle":"Elite property management, cutting-edge hygiene and transparent accounting administration.",
     "hero.ctaWhatsapp":"Message us on WhatsApp",
